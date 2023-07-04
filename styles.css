@@ -1,0 +1,191 @@
+body {
+    align-items: center;
+    background-color: black;
+}
+
+header {
+    height: 66px;
+    width: 360px;
+    background-color: #D8B2FF;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto";
+    margin: auto;
+  }
+  
+  .headerText {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Regular.ttf") format("truetype")
+  }
+
+  .myPic {
+    height: 42px;
+    width: 42px;
+  }
+
+  .main {
+    width: 360px;
+    height: 640px;
+    background-color: white;
+    margin: auto;
+  }
+
+  #menu-icon {
+    width: 15px;
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 22px;
+  }
+  
+  #menu-icon span {
+    width: 14px;
+    height: 1px;
+    background-color: black;
+  }
+
+  .magnifying-glass {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    left: 20px;
+  }
+  
+  .handle {
+    width: 7px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 22px;
+    left: 1.5px;
+    transform: rotate(-45deg);
+    transform-origin: 3 0;
+  }
+  
+  .glass {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+
+  .myPic {
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  .rectangle {
+    height: 266px;
+    width: 314px;
+    background-color: #D8B2FF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-overlay {
+    position: absolute;
+    height: 266px;
+    width: 250px;
+    background-image: url("yetiii.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image-and-name {
+    display: flex;
+    align-items: center;
+  }
+
+  .name {
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+
+  .text-container {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .text-container p {
+    margin: 0;
+  }
+
+  .btn {
+    height: 32px;
+    width: 32px;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+
+  .buttons {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .btn1 {
+    background-image: url("like.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10%;
+  }
+
+  .btn2 {
+    background-image: url("commentpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10%;
+  }
+
+  .btn3 {
+    background-image: url("sharepic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10%;
+  }
+  
+.description {
+    height: 266px;
+    width: 314px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+a {
+    color: #0563C1;
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+  
+  
+  
+  
+  
